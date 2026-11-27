@@ -1,0 +1,12 @@
+/target/
+*.log
+*.swp
+*.m3tis
+*.m3tispfx
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/core
+*.core

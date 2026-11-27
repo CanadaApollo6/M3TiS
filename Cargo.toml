@@ -1,0 +1,24 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/m3tis-format",
+    "crates/m3tis-cuda",
+    "crates/m3tis-io",
+    "crates/m3tis-cache",
+    "crates/m3tis-models",
+    "crates/m3tis-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+authors = ["Riel St. Amand", "M3TiS Contributors"]
+repository = "https://github.com/CanadaApollo6/M3TiS"
+homepage = "https://github.com/CanadaApollo6/M3TiS"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"

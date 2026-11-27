@@ -1,0 +1,9 @@
+[package]
+name = "m3tis-cuda"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+build = "build.rs"
+
+[dev-dependencies]
+m3tis-format = { path = "../m3tis-format" }

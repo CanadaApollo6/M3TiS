@@ -1,0 +1,10 @@
+[package]
+name = "m3tis-cache"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+m3tis-format = { path = "../m3tis-format" }
+m3tis-io = { path = "../m3tis-io" }
+m3tis-cuda = { path = "../m3tis-cuda" }
